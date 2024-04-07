@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- https://tailwindcss.com/resources -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="p-5 md:p-10 text-gray-800">
+    <section class="bg-purple-100 rounded-2xl p-5">
+        <div class="container mx-auto">
+            <div class="flex">
+                <a href="#" class="text-3xl font-bold pr-5 border-r mr-5 border-purple-300">Agencies</a>
+                <div class="my-auto">
+                    <button class="lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+
+                    </button>
+                    <ul class="hidden lg:flex font-bold text-gray-600">
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">Home</a></li>
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">about</a>
+                        </li>
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">Services</a>
+                        </li>
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">portfolio</a>
+                        </li>
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">Contect</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="text-medium bg-red-500 text-white px-3 py-2 rounded font-bold ml-auto flex">
+                    <!-- I need to learn must from (hidden lg:block this class[media query tag])-->
+                    <span class="pr-1 hidden lg:block">
+                        Get Quotes</span>
+                    <!-- I need to learn must To -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 self-center">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+                </a>
+
+            </div>
+            <div>
+                <ul class="hidden lg:hidden font-bold text-gray-600">
+                    <li class="mt-1"><a href="#" class="py-2 ">Home</a></li>
+                    <li class="mt-1"><a href="#" class="py-2">about</a>
+                    </li>
+                    <li class="mt-1"><a href="#" class="py-2">Services</a>
+                    </li>
+                    <li class="mt-1"><a href="#" class="py-2">portfolio</a>
+                    </li>
+                    <li class="mt-1"><a href="#" class="py-2">Contect</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex lg:py-36 py-12">
+                <!-- 1 -->
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-center lg:text-left text-3xl lg:text-7xl font-bold lg:font-semibold">
+                        World Class design for your products
+                    </h2>
+                    <p class="text-center lg:text-left mt-4 lg:mt-8 text-2xl text-gray-600">Lorem ipsum dolor sit amet
+                        consectetur adipisicing
+                        elit. A
+                        pariatur
+                        excepturi,
+                        aperiam culpa
+                        architecto </p>
+                    <div class="justify-center lg:justify-start flex mt-12 ml-5">
+                        <a href="#" class="mr-5 text-lg bg-purple-600 text-white px-3 py-2 rounded">Services</a>
+                        <a href="#" class="mr-5 text-lg bg-red-600 text-white px-3 py-2 rounded">Contect us</a>
+                    </div>
+                </div>
+                <!-- 1/ -->
+                <!-- 2 -->
+                <div class="lg:w-1/2 hidden lg:flex">
+                    <img src="./assets/images/hero2.svg" alt="">
+                </div>
+                <!-- 2/ -->
+            </div>
+            <div class="flex justify-center">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+                    </svg>
+                </div>
+                <div class="ml-2">Scroll Down</div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
